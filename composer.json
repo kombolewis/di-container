@@ -1,0 +1,42 @@
+{
+  "name": "kombolewis/di-container",
+  "description": "Simple PHP Service Container",
+  "keywords": ["container","DI","MVC"],
+  "type": "library",
+  "license": "MIT",
+  "readme": "",
+  "time": "",
+  "support": {
+      "issues": "https://github.com/kombolewis/di-container/issues",
+      "source": "https://github.com/kombolewis/di-container",
+      "wiki": "https://github.com/kombolewis/di-container/wiki"
+  },
+  "authors": [
+      {
+          "name": "kombolewis",
+          "email": "kombolewis@gmail.com",
+          "role": "Developer"
+      }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+      "php":"^7.4",
+      "ext-mbstring":"*",
+      "ext-iconv":"*",
+      "ext-pdo":"*",
+      "ext-json":"*",
+      "ext-curl":"*",
+      "ext-simplexml":"*"
+  },
+  "autoload": {
+      "psr-4": {
+          "Magma\\":"src/Magma/",
+          "App\\":"App/"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Magma\\Tests\\":"tests/"
+      }
+  }
+}
