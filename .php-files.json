@@ -1,0 +1,7 @@
+{
+  "namespaces": {
+    "Core\\":"src/",
+    "App\\":"app/",
+    "Tests\\":"tests/"
+  }
+}
